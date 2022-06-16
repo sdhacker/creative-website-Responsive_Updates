@@ -1236,8 +1236,8 @@ h6 {
 }
 
 .cta-two__shape-3 {
-	top: -20%;
-	right: 10%;
+	top: -10%;
+	right: 25%;
 	-webkit-animation-name: bubbleMover;
 	animation-name: bubbleMover;
 	-webkit-animation-timing-function: linear;
