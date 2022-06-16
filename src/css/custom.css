@@ -1133,7 +1133,7 @@ h6 {
 	position: relative;
 	background-color: #fff;
 	z-index: 10;
-	padding-top: 50px;
+	padding-top: 80px;
 }
 
 [class*=cta-one__circle-] {
@@ -2784,8 +2784,8 @@ h6 {
 }
 
 .faq-one__shape-3 {
-	left: 4%;
-	bottom: -4%;
+	left: 1%;
+	bottom: -8%;
 	z-index: 11;
 	-webkit-transform-origin: center bottom;
 	transform-origin: center bottom;
