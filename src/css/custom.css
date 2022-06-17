@@ -3843,6 +3843,8 @@ svg path {
   stroke: var(--ifm-color-emphasis-1000);
 }
 
+.iconExternalLink_wgqa{ display: none; }
+
 /*--------------------------------------------------------------
 # Responsive updates for mobile view
 --------------------------------------------------------------*/
@@ -3879,15 +3881,18 @@ svg path {
     .banner-one__content h3 br {
         display: none;
     }
-    .cta-three__moc {
-        left: -20%;
-
+    .cta-three__moc{
+    	padding-top: 100px;
     }
     .cta-three__content {
-        padding-left: 0;
+        padding-left:160px ;
     }
-    .cta-two__moc {
-        right: -20%;
+
+    .cta-two__moc{
+    	padding-top: 50px;
+    }
+    .cta-two__content {
+        padding-right: 130px;
     }
     #testimonials-slider-pager {
         position: relative;
@@ -3954,7 +3959,13 @@ svg path {
         top: auto;
         right: auto;
     }
-    
+    .cta-three__content {
+        padding-left:0px ;
+    }
+
+    .cta-two__content {
+        padding-right: 0px;
+    }
 
     .map-img{
     	max-width: 80%;
@@ -3989,6 +4000,24 @@ svg path {
 	height: 306.5px;
 	left: calc(50% - 153.25px);
 	bottom: calc(0% - 153.25px);
+}
+
+
+.cta-two__shape-1 {
+	top: 0%;
+	left: 1%;
+}
+.cta-two__shape-2 {
+	bottom: 25%;
+	right: 30%;
+}
+.cta-three__shape-2 {
+	top: -1%;
+	right: 10%;
+}
+.faq-one__shape-2 {
+	top: 0%;
+	right: 1%;
 }
     .funfact-one {
         padding-bottom: 90px;
